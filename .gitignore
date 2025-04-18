@@ -1,0 +1,37 @@
+# Unity generated files
+##############################
+.vs/
+.idea/
+.vscode/
+
+# User-specific files
+##############################
+UserSettings/
+
+# Build directories
+##############################
+Builds/
+Library/
+Temp/
+Obj/
+
+# Unity Package Manager
+##############################
+Packages/
+# Uncomment the next line if you have a `PackageLock.json` file
+# PackageLock.json
+
+# Windows-specific files
+##############################
+Thumbs.db
+Desktop.ini
+
+# macOS-specific files
+##############################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux-specific files
+##############################
+.directory
