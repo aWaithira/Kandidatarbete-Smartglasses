@@ -49,9 +49,9 @@ public class GhostBoxHandler : MonoBehaviour
             rb.velocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
 
+            listscript.UpdateText(boxNumber); // Call the UpdateText method from listtextmanager
             // Hide the ghost box (indicating successful placement)
             ghostBox.SetActive(false);
-            listscript.UpdateText(boxNumber); // Call the UpdateText method from listtextmanager
             Debug.Log("Box placed correctly!");
         }
         else
