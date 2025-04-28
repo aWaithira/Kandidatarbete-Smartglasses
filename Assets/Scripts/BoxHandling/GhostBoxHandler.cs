@@ -4,7 +4,10 @@ public class GhostBoxHandler : MonoBehaviour
 {
     [Header("References")]
     public GameObject ghostBox;
+    public GameObject list;
     public float placementThreshold = 0.1f;
+    public int boxNumber;
+    private listtextmanager listscript;
 
     private Rigidbody rb;
 
@@ -12,6 +15,8 @@ public class GhostBoxHandler : MonoBehaviour
     {
         // Get the Rigidbody component (only needed if you want to modify physics)
         rb = GetComponent<Rigidbody>();
+
+        listscript = list.GetComponent<listtextmanager>();
 
         if (ghostBox)
             ghostBox.SetActive(false); // Start with ghost box hidden
@@ -46,6 +51,7 @@ public class GhostBoxHandler : MonoBehaviour
 
             // Hide the ghost box (indicating successful placement)
             ghostBox.SetActive(false);
+            listscript.UpdateText(boxNumber); // Call the UpdateText method from listtextmanager
             Debug.Log("Box placed correctly!");
         }
         else

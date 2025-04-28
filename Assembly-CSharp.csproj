@@ -8,9 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
-    <ProjectGuid>{C9910C3B-4B35-68B0-7E42-89A1801C35ED}</ProjectGuid>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{C36098A1-A5F7-D4C5-3BA8-F92AEF3BD28E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,6 +56,8 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\textchanger.cs" />
+    <Compile Include="Assets\Scripts\listtextmanager.cs" />
     <Compile Include="Assets\Scripts\BoxHandling\GhostBoxHandler.cs" />
     <Compile Include="Assets\Scripts\BoxHandling\BoxPlacementManager.cs" />
   </ItemGroup>
