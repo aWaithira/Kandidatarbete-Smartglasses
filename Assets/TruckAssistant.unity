@@ -1008,9 +1008,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ghostBox: {fileID: 1578174776}
-  list: {fileID: 0}
+  list: {fileID: 1006492228}
   placementThreshold: 0.6
   boxNumber: 0
+--- !u!1 &1006492228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4541025776010528313, guid: a7cd19489401a964a86f1f4752efeac5, type: 3}
+  m_PrefabInstance: {fileID: 448571343408347015}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1077569333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,6 +1629,30 @@ PrefabInstance:
     - target: {fileID: 448571344685054548, guid: a7cd19489401a964a86f1f4752efeac5, type: 3}
       propertyPath: m_Name
       value: list
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541025776010528310, guid: a7cd19489401a964a86f1f4752efeac5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.382005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541025776010528310, guid: a7cd19489401a964a86f1f4752efeac5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541025776010528310, guid: a7cd19489401a964a86f1f4752efeac5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541025776406791140, guid: a7cd19489401a964a86f1f4752efeac5, type: 3}
+      propertyPath: m_margin.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541025776406791140, guid: a7cd19489401a964a86f1f4752efeac5, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541025776406791143, guid: a7cd19489401a964a86f1f4752efeac5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2373056740733442188, guid: a7cd19489401a964a86f1f4752efeac5, type: 3}

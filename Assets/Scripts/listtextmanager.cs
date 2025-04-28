@@ -14,8 +14,8 @@ public class listtextmanager: MonoBehaviour
         listtext = GetComponentInChildren<TMP_Text>();
         boxlist = new List<string>();
         boxlist.Add("Box 1,Wheight 5kg, Size 1 X 1 X1 m ");
-        //boxlist.Add("Box 2,Wheight 10kg, Size 2 X 1 X 0.5 m ");
-        //boxlist.Add("Box 3,Wheight 15kg, Size 1 X 2 X 1 m ");
+        boxlist.Add("Box 2,Wheight 10kg, Size 2 X 1 X 0.5 m ");
+        boxlist.Add("Box 3,Wheight 15kg, Size 1 X 2 X 1 m ");
 
 
     }
@@ -23,16 +23,13 @@ public class listtextmanager: MonoBehaviour
     private void Update()
     {
         // Update the text in the UI element
-        for (int i = 0; i < boxlist.Count; i++)
-        {
-            listtext.text = boxlist[i];
-        }
+        listtext.text = string.Join("\n", boxlist);
+
 
     }
 
     public void UpdateText(int boxnumber)
     {
-        boxlist[boxnumber] = "no";
-            //"<s>" + boxlist[boxnumber] +"</s>";
+        boxlist[boxnumber] = "<s>" + boxlist[boxnumber] +"</s>";
     }
 }
