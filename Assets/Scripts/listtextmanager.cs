@@ -32,7 +32,7 @@ public class listtextmanager: MonoBehaviour
 
     public void UpdateText(int boxnumber)
     {
-        boxlist[boxnumber] = "<s>" + boxlist[boxnumber] +"</s>";
-
+        boxlist[boxnumber] = "no";
+            //"<s>" + boxlist[boxnumber] +"</s>";
     }
 }
